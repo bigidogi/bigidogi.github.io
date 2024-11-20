@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="description" content="Special Event Calculator">
+	<meta name="title" content="Special Event Calculator">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@300;500;700;800;900&family=Lobster&display=swap" rel="stylesheet">
 
 	<style>
+		@font-face {
+			font-family: 'Kanit';
+			src: url('fonts/Kanit-Black.ttf')
+			font-weight: 900;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Kanit';
+			src: url('fonts/Kanit-ExtraBold.ttf')
+			font-weight: 800;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Kanit';
+			src: url('fonts/Kanit-Bold.ttf')
+			font-weight: 700;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Kanit';
+			src: url('fonts/Kanit-Medium.ttf')
+			font-weight: 500;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Kanit';
+			src: url('fonts/Kanit-Light.ttf')
+			font-weight: 300;
+			font-style: normal;
+		}
 		html {
 			font-size: 62.5%;
 		}
 		body {
-			background-color: #4d004d;
+			background-image: url("images/bg.png");
+			background-color: #650065;
+			background-size: cover;
+			background-position: center top;
 			color: #ffffff;
 			margin: 0;
 			padding: 1rem;
@@ -75,7 +105,7 @@
 			color:lightgray;
 			text-align: center;
 			border-radius: 0.5rem;
-			background-color: #610061;
+			background-color: #940094;
 			border: none;
 			height: 2rem;
 			width: 10rem;
@@ -83,7 +113,7 @@
 			touch-action: manipulation;
 		}
 		select:hover {
-			background-color: #750075;
+			background-color: #b200b2;
 		}
 		p {
 			font-family: 'Kanit', sans-serif;
@@ -114,7 +144,7 @@
 		lineV {
 			width: 3px;
 			height: 39rem;
-			background-color: #610061;
+			background-color: #940094;
 			margin: 1rem 0;
 		}
 		a {
@@ -143,7 +173,10 @@
 				font-size: 50%;
 			}
 			body {
-				background-color: #4d004d;
+				background-image: url("images/bg.png");
+				background-color: #650065;
+				background-size: cover;
+				background-position: center top;
 				color: #ffffff;
 				margin: 0;
 				padding: 1rem;
@@ -206,7 +239,7 @@
 				color:lightgray;
 				text-align: center;
 				border-radius: 0.5rem;
-				background-color: #610061;
+				background-color: #940094;
 				border: none;
 				height: 2rem;
 				width: 10rem;
@@ -214,7 +247,7 @@
 				touch-action: manipulation;
 			}
 			select:hover {
-				background-color: #750075;
+				background-color: #b200b2;
 			}
 			p {
 				font-family: 'Kanit', sans-serif;
@@ -245,7 +278,7 @@
 			lineV {
 				width: 80vw;
 				height: 3px;
-				background-color: #610061;
+				background-color: #940094;
 				margin: 2rem 0;
 			}
 			a {
@@ -277,8 +310,19 @@
 		<div class="container">
 			<div class="column">
 				<div class="dropdown">
-					<p>Team Fordzilla P1</p>
+					<p>Jaguar XJR-9</p>
 						<select id="car1" required onchange="selectColor(this)">
+							<option class="choose" value="0" disabled selected>Stars</option>
+							<option class="star" value="1">&starf;</option>
+							<option class="star" value="2">&starf;&starf;</option>
+							<option class="star" value="3">&starf;&starf;&starf;</option>
+							<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
+							<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
+						</select>
+				</div>
+				<div class="dropdown">
+					<p>Team Fordzilla P1</p>
+						<select id="car2" required onchange="selectColor(this)">
 							<option class="choose" value="0" disabled selected>Stars</option>
 							<option class="locked" value="0">Locked</option>
 							<option class="star" value="1">&starf;</option>
@@ -289,18 +333,7 @@
 						</select>
 				</div>
 				<div class="dropdown">
-					<p>Jaguar XJR-9</p>
-						<select id="car2" required onchange="selectColor(this)">
-							<option class="choose" value="0" disabled selected>Stars</option>
-							<option class="star" value="1">&starf;</option>
-							<option class="star" value="2">&starf;&starf;</option>
-							<option class="star" value="3">&starf;&starf;&starf;</option>
-							<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
-							<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
-						</select>
-				</div>
-				<div class="dropdown">
-					<p>Zenvo Aurora Tur</p>
+					<p>Aston Martin Valkyrie</p>
 						<select id="car3" required onchange="selectColor(this)">
 							<option class="choose" value="0" disabled selected>Stars</option>
 							<option class="locked" value="0">Locked</option>
@@ -312,9 +345,10 @@
 						</select>
 				</div>
 				<div class="dropdown">
-					<p>W Motors Lykan Neon</p>
+					<p>Naran Hyper Coupe</p>
 						<select id="car4" required onchange="selectColor(this)">
 							<option class="choose" value="0" disabled selected>Stars</option>
+							<option class="locked" value="0">Locked</option>
 							<option class="star" value="1">&starf;</option>
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
@@ -336,7 +370,7 @@
 						</select>
 				</div>
 				<div class="dropdown">
-					<p>Deus Vayanne</p>
+					<p>W Motors Lykan Neon</p>
 						<select id="car6" required onchange="selectColor(this)">
 							<option class="choose" value="0" disabled selected>Stars</option>
 							<option class="star" value="1">&starf;</option>
@@ -356,6 +390,7 @@
 						<option class="star" value="2">&starf;&starf;</option>
 						<option class="star" value="3">&starf;&starf;&starf;</option>
 						<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
+						<option class="star" value="5">&starf;&starf;&starf;&starf;&starf;</option>
 						<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
 					</select>
 				</div>
@@ -459,7 +494,7 @@
 			<a href="https://discord.com/users/426439047540375553" target="_blank">Drugoy/BigiDogi</a>
 		</div>
 		<a href="https://t.me/asphalt_9legends" target="_blank" style="height: 5rem">
-			<img src="tg_a.png" style="height: 5rem">
+			<img src="images/tg_a.png" style="height: 5rem">
 		</a>
 	</div>
 	<script>
