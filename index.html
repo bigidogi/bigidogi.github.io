@@ -674,7 +674,7 @@ function selectColor(selectElement) {
     { Conditions: 290, RewardID: 2, Reward_Count: 300 },
     { Conditions: 320, RewardID: 6, Reward_Count: 1 },
     { Conditions: 345, RewardID: 6, Reward_Count: 1 },
-    { Conditions: 382, RewardID: 6, Reward_Count: 1 },
+    { Conditions: 382, RewardID: 6, Reward_Count: 2 },
   ];
 
   const carMapping = {
