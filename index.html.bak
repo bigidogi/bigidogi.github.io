@@ -8,31 +8,36 @@
 	<style>
 		@font-face {
 			font-family: 'Kanit';
-			src: url('fonts/Kanit-Black.ttf')
+			src: url('fonts/Kanit-Black.ttf') format('truetype'),
+			src: url('fonts/Kanit-Black.woff2') format('woff2');
 			font-weight: 900;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'Kanit';
-			src: url('fonts/Kanit-ExtraBold.ttf')
+			src: url('fonts/Kanit-ExtraBold.ttf'),
+			src: url('fonts/Kanit-Extra-Bold.woff2') format('woff2');
 			font-weight: 800;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'Kanit';
-			src: url('fonts/Kanit-Bold.ttf')
+			src: url('fonts/Kanit-Bold.ttf'),
+			src: url('fonts/Kanit-Bold.woff2') format('woff2');
 			font-weight: 700;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'Kanit';
-			src: url('fonts/Kanit-Medium.ttf')
+			src: url('fonts/Kanit-Medium.ttf'),
+			src: url('fonts/Kanit-Medium.woff2') format('woff2');
 			font-weight: 500;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'Kanit';
-			src: url('fonts/Kanit-Light.ttf')
+			src: url('fonts/Kanit-Light.ttf'),
+			src: url('fonts/Kanit-Light.woff2') format('woff2');
 			font-weight: 300;
 			font-style: normal;
 		}
