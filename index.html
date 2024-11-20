@@ -317,7 +317,7 @@
 				<div class="dropdown">
 					<p>Jaguar XJR-9</p>
 						<select id="car1" required onchange="selectColor(this)">
-							<option class="choose" value="0" disabled selected>Stars</option>
+							<option class="choose" value="1" disabled selected>Stars</option>
 							<option class="star" value="1">&starf;</option>
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
@@ -368,7 +368,7 @@
 				<div class="dropdown">
 					<p>Torino Design Super Sport</p>
 						<select id="car5" required onchange="selectColor(this)">
-							<option class="choose" value="0" disabled selected>Stars</option>
+							<option class="choose" value="1" disabled selected>Stars</option>
 							<option class="star" value="1">&starf;</option>
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
@@ -380,7 +380,7 @@
 				<div class="dropdown">
 					<p>W Motors Lykan Neon</p>
 						<select id="car6" required onchange="selectColor(this)">
-							<option class="choose" value="0" disabled selected>Stars</option>
+							<option class="choose" value="1" disabled selected>Stars</option>
 							<option class="star" value="1">&starf;</option>
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
