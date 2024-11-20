@@ -43,6 +43,7 @@
 			background-image: url("images/bg.png");
 			background-color: #650065;
 			background-size: cover;
+			background-position: center top;
 			color: #ffffff;
 			margin: 0;
 			padding: 1rem;
@@ -175,6 +176,7 @@
 				background-image: url("images/bg.png");
 				background-color: #650065;
 				background-size: cover;
+				background-position: center top;
 				color: #ffffff;
 				margin: 0;
 				padding: 1rem;
