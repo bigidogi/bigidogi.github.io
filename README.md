@@ -322,6 +322,7 @@
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
 							<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
+							<option class="star" value="5">&starf;&starf;&starf;&starf;&starf;</option>
 							<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
 						</select>
 				</div>
@@ -334,6 +335,7 @@
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
 							<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
+							<option class="star" value="5">&starf;&starf;&starf;&starf;&starf;</option>
 							<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
 						</select>
 				</div>
@@ -346,6 +348,7 @@
 							<option class="star" value="2">&starf;&starf;</option>
 							<option class="star" value="3">&starf;&starf;&starf;</option>
 							<option class="star" value="4">&starf;&starf;&starf;&starf;</option>
+							<option class="star" value="5">&starf;&starf;&starf;&starf;&starf;</option>
 							<option class="star" value="6">&starf;&starf;&starf;&starf;&starf;&starf;</option>
 						</select>
 				</div>
