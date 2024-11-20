@@ -481,7 +481,6 @@
 				<p>Tokens:</p>
 				<p>Blueprints:</p>
 				<p>EIP:</p>
-				<p id="res7"></p>
 			</div>
 			<div class="column" id="results" style="align-items: flex-end">
 				<p id="res1">0</p>
@@ -721,10 +720,6 @@ function selectColor(selectElement) {
         }
     });
 
-    //let specialMessage = "";
-    //if (currentConditions === 491) {
-        //specialMessage = "You'll get a Decal!";
-	//}
 
     const resultMap = {
         res1: `${currentConditions}`,
@@ -733,7 +728,6 @@ function selectColor(selectElement) {
         res4: `${currentRewards.find((r) => r.RewardID === 2).Count}`,
         res5: `${currentRewards.find((r) => r.RewardID === 5).Count}`,
         res6: `${currentRewards.find((r) => r.RewardID === 6).Count}`,
-		res7: specialMessage,
     };
 
     for (let id in resultMap) {
